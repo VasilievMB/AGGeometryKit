@@ -81,15 +81,6 @@ AGKVector3D AGKVector3DCrossProduct(AGKVector3D v1, AGKVector3D v2)
                           v1.x * v2.y - v1.y * v2.x);
 }
 
-AGKVector3D AGKVector3DForGLKVector3(GLKVector3 vec)
-{
-#if defined(__STRICT_ANSI__)
-    return AGKVector3DMake(vec.v[0], vec.v[1], vec.v[2]);
-#else
-    return AGKVector3DMake(vec.x, vec.y, vec.z);
-#endif
-}
-
 AGKVector3D AGKVector3DGetTriangleNormal(AGKVector3D v1, AGKVector3D v2, AGKVector3D v3)
 {
     AGKVector3D edge1 = AGKVector3DSubtract(v1, v2);

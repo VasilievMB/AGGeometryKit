@@ -26,8 +26,6 @@
 		A009D0D91C9FC92C00966B6D /* AGKMatrix+AGKVector3D.m in Sources */ = {isa = PBXBuildFile; fileRef = A009D0A41C9FC92C00966B6D /* AGKMatrix+AGKVector3D.m */; };
 		A009D0DA1C9FC92C00966B6D /* AGKMatrix+CATransform3D.h in Headers */ = {isa = PBXBuildFile; fileRef = A009D0A51C9FC92C00966B6D /* AGKMatrix+CATransform3D.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		A009D0DB1C9FC92C00966B6D /* AGKMatrix+CATransform3D.m in Sources */ = {isa = PBXBuildFile; fileRef = A009D0A61C9FC92C00966B6D /* AGKMatrix+CATransform3D.m */; };
-		A009D0DC1C9FC92C00966B6D /* AGKMatrix+GLKit.h in Headers */ = {isa = PBXBuildFile; fileRef = A009D0A71C9FC92C00966B6D /* AGKMatrix+GLKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		A009D0DD1C9FC92C00966B6D /* AGKMatrix+GLKit.m in Sources */ = {isa = PBXBuildFile; fileRef = A009D0A81C9FC92C00966B6D /* AGKMatrix+GLKit.m */; };
 		A009D0DE1C9FC92C00966B6D /* CALayer+AGK+Methods.h in Headers */ = {isa = PBXBuildFile; fileRef = A009D0A91C9FC92C00966B6D /* CALayer+AGK+Methods.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		A009D0DF1C9FC92C00966B6D /* CALayer+AGK+Methods.m in Sources */ = {isa = PBXBuildFile; fileRef = A009D0AA1C9FC92C00966B6D /* CALayer+AGK+Methods.m */; };
 		A009D0E01C9FC92C00966B6D /* CALayer+AGK+Properties.h in Headers */ = {isa = PBXBuildFile; fileRef = A009D0AB1C9FC92C00966B6D /* CALayer+AGK+Properties.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -124,8 +122,6 @@
 		A009D0A41C9FC92C00966B6D /* AGKMatrix+AGKVector3D.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "AGKMatrix+AGKVector3D.m"; sourceTree = "<group>"; };
 		A009D0A51C9FC92C00966B6D /* AGKMatrix+CATransform3D.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "AGKMatrix+CATransform3D.h"; sourceTree = "<group>"; };
 		A009D0A61C9FC92C00966B6D /* AGKMatrix+CATransform3D.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "AGKMatrix+CATransform3D.m"; sourceTree = "<group>"; };
-		A009D0A71C9FC92C00966B6D /* AGKMatrix+GLKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "AGKMatrix+GLKit.h"; sourceTree = "<group>"; };
-		A009D0A81C9FC92C00966B6D /* AGKMatrix+GLKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "AGKMatrix+GLKit.m"; sourceTree = "<group>"; };
 		A009D0A91C9FC92C00966B6D /* CALayer+AGK+Methods.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "CALayer+AGK+Methods.h"; sourceTree = "<group>"; };
 		A009D0AA1C9FC92C00966B6D /* CALayer+AGK+Methods.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "CALayer+AGK+Methods.m"; sourceTree = "<group>"; };
 		A009D0AB1C9FC92C00966B6D /* CALayer+AGK+Properties.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "CALayer+AGK+Properties.h"; sourceTree = "<group>"; };
@@ -267,8 +263,6 @@
 				A009D0A41C9FC92C00966B6D /* AGKMatrix+AGKVector3D.m */,
 				A009D0A51C9FC92C00966B6D /* AGKMatrix+CATransform3D.h */,
 				A009D0A61C9FC92C00966B6D /* AGKMatrix+CATransform3D.m */,
-				A009D0A71C9FC92C00966B6D /* AGKMatrix+GLKit.h */,
-				A009D0A81C9FC92C00966B6D /* AGKMatrix+GLKit.m */,
 				A009D0A91C9FC92C00966B6D /* CALayer+AGK+Methods.h */,
 				A009D0AA1C9FC92C00966B6D /* CALayer+AGK+Methods.m */,
 				A009D0AB1C9FC92C00966B6D /* CALayer+AGK+Properties.h */,
@@ -330,7 +324,6 @@
 				A009D0D51C9FC92C00966B6D /* AGKVector3D.h in Headers */,
 				A009D0EC1C9FC92C00966B6D /* UIScrollView+AGK+Properties.h in Headers */,
 				A009D0F31C9FC92C00966B6D /* AGKCALayerAnimationBlockDelegate.h in Headers */,
-				A009D0DC1C9FC92C00966B6D /* AGKMatrix+GLKit.h in Headers */,
 				A009D0CB1C9FC92C00966B6D /* AGKBaseDefines.h in Headers */,
 				A009D0F21C9FC92C00966B6D /* AGGeometryKitClasses.h in Headers */,
 				A009D0F71C9FC92C00966B6D /* AGKTransformPixelMapper.h in Headers */,
@@ -420,6 +413,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 			);
 			mainGroup = A009D0711C9FC89200966B6D;
@@ -460,7 +454,6 @@
 				A009D0FD1C9FC92C00966B6D /* CGImageRef+AGK+CATransform3D.m in Sources */,
 				A009D0CE1C9FC92C00966B6D /* AGKCorner.m in Sources */,
 				A009D0EF1C9FC92C00966B6D /* UIView+AGK+AngleConverter.m in Sources */,
-				A009D0DD1C9FC92C00966B6D /* AGKMatrix+GLKit.m in Sources */,
 				A009D0E51C9FC92C00966B6D /* NSValue+AGKQuad.m in Sources */,
 				A009D0F41C9FC92C00966B6D /* AGKCALayerAnimationBlockDelegate.m in Sources */,
 				A009D0D61C9FC92C00966B6D /* AGKVector3D.m in Sources */,

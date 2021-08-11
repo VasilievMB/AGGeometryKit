@@ -23,8 +23,6 @@
 
 #import "CGGeometry+AGGeometryKit.h"
 #import <QuartzCore/QuartzCore.h>
-#import "GLKit/GLKMatrix3.h"
-#import "GLKit/GLKVector3.h"
 #import "AGKMath.h"
 #import "pthread.h"
 
